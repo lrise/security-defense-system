@@ -75,10 +75,19 @@ venv\Scripts\activate
 ```
 
 ### 2.2 安裝 Python 依賴
+
 ```bash
 pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+```bash
 pip install -r requirements_local.txt
 ```
+
+- transformers: 4.52.3
+- tokenizers: 0.21.1
+- torch: 2.7.0+cu118 (GPU版本)
+
 
 ## 第三步：設置前端 (React)
 
