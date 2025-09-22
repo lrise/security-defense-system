@@ -34,9 +34,27 @@ ai-defense-system/
 
 ## 第一步：建立專案目錄
 
+### 1.1 git clone project
+
 ```bash
 cd ai-defense-system
 ```
+### 1.2 在backend/app.py修改model路徑
+
+```bash
+system_config = {
+    "model_path": "C:/Users/user/Desktop/rnn/toxigen_model",
+    "ollama_url": "http://localhost:11434",
+    "ollama_model": "llama3.1:8b",
+    "toxicity_threshold": 0.4,
+    "harmfulness_threshold": 0.3,
+    "replacement_threshold": "low",
+    "enable_ollama_replacement": True,
+    "strict_mode": False
+}
+```
+請把model_path改成toxigen_model放置的路徑
+toxigen_model downoload link: [LINK](https://drive.google.com/drive/folders/14uaWo6KFr4Agwti33J-8RLykP61mJOTw?usp=sharing)
 
 ## 第二步：設置後端 (Flask)
 
