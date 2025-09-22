@@ -1,5 +1,7 @@
 # security-defense-system
 
+<img width="1548" height="742" alt="image" src="https://github.com/user-attachments/assets/ed28e30e-481b-4e36-8108-8a845497670f" />
+
 ## 專案目錄結構
 
 ```
