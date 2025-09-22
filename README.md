@@ -76,6 +76,7 @@ venv\Scripts\activate
 
 ### 2.2 安裝 Python 依賴
 ```bash
+pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements_local.txt
 ```
 
