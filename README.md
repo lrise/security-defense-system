@@ -5,7 +5,7 @@
 ## 專案目錄結構
 
 ```
-ai-defense-system/
+security-defense-system/
 ├── backend/                     # Flask 後端
 │   ├── app.py                
 │   ├── enhanced_defense_system.py
@@ -40,7 +40,7 @@ ai-defense-system/
 ### 1.1 git clone project
 
 ```bash
-cd ai-defense-system
+cd security-defense-system
 ```
 ### 1.2 在backend/app.py修改model路徑
 
