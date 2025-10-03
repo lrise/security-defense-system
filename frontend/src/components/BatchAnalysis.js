@@ -349,7 +349,7 @@ const BatchAnalysis = () => {
             dataSource={uploadedData.preview}
             columns={uploadedData.columns?.map(col => ({
               title: col,
-              dataKey: col,
+              dataIndex: col,  // ✅ 改為 dataIndex
               key: col,
               ellipsis: true,
               width: col === 'Response' || col === 'Prompt' ? 200 : 120
