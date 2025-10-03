@@ -118,11 +118,17 @@ function App() {
     }
   ];
 
-  const getStatusBadge = (status, label) => {
-    const color = status ? 'success' : 'error';
-    const text = status ? 'Connected' : 'Disconnected';
-    return <Badge status={color} text={`${label}: ${text}`} />;
-  };
+const getStatusBadge = (status, label) => {
+  const color = status ? 'success' : 'error';
+  const text = status ? 'Connected' : 'Disconnected';
+  return (
+    <Badge 
+      status={color} 
+      text={`${label}: ${text}`}
+      style={{ color: '#fff' }}  // ✅ 加上這行
+    />
+  );
+};
 
   const getSystemHealthScore = () => {
     const checks = [
