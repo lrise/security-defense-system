@@ -1,6 +1,7 @@
 # security-defense-system
 
-<img width="1548" height="742" alt="image" src="https://github.com/user-attachments/assets/ed28e30e-481b-4e36-8108-8a845497670f" />
+<img width="1904" height="906" alt="image" src="https://github.com/user-attachments/assets/9419a0f9-60d9-45df-a56d-0a63a130654c" />
+
 
 ## 專案目錄結構
 
