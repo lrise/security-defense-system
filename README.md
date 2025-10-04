@@ -8,8 +8,7 @@
 ```
 security-defense-system/
 ├── backend/                     # Flask 後端
-│   ├── app.py
-|   ├── llama_jailbreak_detector/   # LLM model         
+│   ├── app.py         
 │   ├── enhanced_defense_system.py
 │   ├── requirements.txt     
 │   ├── uploads/             
@@ -27,7 +26,6 @@ security-defense-system/
 │   │   │   ├── TestHistory.js
 │   │   │   ├── BatchAnalysis.js
 │   │   │   └── Settings.js
-│   │   │   └── MultiModelTest.js
 │   │   ├── App.js            
 │   │   ├── App.css         
 │   │   └── index.js         
@@ -61,9 +59,6 @@ system_config = {
 ```
 請把model_path改成toxigen_model放置的路徑
 toxigen_model downoload link: [LINK](https://drive.google.com/drive/folders/14uaWo6KFr4Agwti33J-8RLykP61mJOTw?usp=sharing)
-
-請下載llama_jailbreak_detector，並將整個資料夾和app.py放在同一層級
-toxigen_model downoload link: [LINK](https://drive.google.com/drive/folders/19dCxaDrI_2tSibpmEb-_EqLo8zKQ9KYs?usp=sharing)
 
 ## 第二步：設置後端 (Flask)
 
@@ -128,10 +123,6 @@ cd backend
 # 啟動虛擬環境
 venv\Scripts\activate  # Windows
 # source venv/bin/activate  # macOS/Linux
-
-# 本地登入 HF：Access to model meta-llama/Llama-3.2-3B-Instruct(需要有這個權限，要request Llama-3.2-3B-Instruct 的 access，token authority可以使用read就好)
-huggingface-cli login
-接著輸入自己的hf token
 
 # 運行 Flask 服務器
 python app.py
